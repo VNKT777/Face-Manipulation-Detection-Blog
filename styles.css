@@ -1,0 +1,120 @@
+
+body  {
+	margin:0;
+	background-color: white;
+  1background-color: #0cbaba;
+	1background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+	font: 20px/1.2 'Lexend', sans-serif;
+}
+
+article {
+	display: grid;
+	grid-template-columns:  1fr 0.5in [start] minmax(0,7.5in) [end] 0.5in 1fr;
+	height: 100vh;
+	padding: 0.5in;
+
+	font: 20px/1.2 'Lexend', sans-serif;
+
+			}
+
+article * {grid-column: start/end;
+	color:		hsla(210,100%,100%,0.88) !important;
+	background:	hsla(210,100%,50%,0.33) !important;
+	outline:	hsla(210,100%,100%,0.88) !important;
+	font: 20px/1.2 'Lexend', sans-serif;
+}
+
+@media (max-width: 0.5in){
+	article{ grid-template-columns:  1fr 5% [start] 90% [end] 5% 1fr; 
+}
+}
+
+img {width:100%;}
+
+.size-1 {grid-column: 3/5}
+.size-2 {grid-column: 3/5}
+.size-3 {grid-column: 3/5}
+.size-4 {grid-column: 3/5}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font: 20px/1.2 'Lexend', sans-serif;
+}
+li {
+  float: left;
+  font: 20px/1.2 'Lexend', sans-serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: 20px/1.2 'Lexend', sans-serif;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  font: 20px/1.2 'Lexend', sans-serif;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.button {
+
+  border: 2px solid #008CBA;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #008CBA;
+  color: white;
+  font-family: 'Lexend', sans-serif;
+
+}
+
+.button:hover {
+  background-color: #66ffff; 
+  color: black; 
+  font: 20px/1.2 'Lexend', sans-serif;
+}
+
+
+
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font: 20px/1.2 'Lexend', sans-serif;
+}
+button a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: 20px/1.2 'Lexend', sans-serif;
+}
