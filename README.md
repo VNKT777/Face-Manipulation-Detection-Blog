@@ -2,4 +2,4 @@
 - Hosted using AWS Services
 - Explains the Final year project of computer vision
 - Currently not in production.
-<img src="GBArchitecture.png">
+<img src="GB Architecture.png">
