@@ -1,2 +1,5 @@
 # Face-Manipulation-Detection-Blog
-Please visit fakefacedetection.ml for more information
+- Hosted using AWS Services
+- Explains the Final year project of computer vision
+- Currently not in production.
+<img src="GBArchitecture.png">
